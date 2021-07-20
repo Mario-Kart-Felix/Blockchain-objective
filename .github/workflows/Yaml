@@ -1,0 +1,10 @@
+pub struct Yaml(pub yaml_rust::Yaml);
+
+impl Default for Yaml {
+    fn default() -> Self {
+        Self(yaml_rust::Yaml::Null)
+    }
+}
+
+impl AsRef<yaml_rust::Yaml> for Yaml {
+    fn as_ref(&self) -> &yaml_rust::Yaml {

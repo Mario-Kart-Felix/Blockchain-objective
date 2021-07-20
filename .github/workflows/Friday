@@ -1,0 +1,4 @@
+public static final String PREF_EXCHANGE_PRICE = "pref_exchange_price";
+    public static final String PREF_WALLET_TOP_INDEX_BTC = "pref_wallet_top_index_btc";
+    public static final String PREF_WALLET_TOP_INDEX_ETH = "pref_wallet_top_index_eth";
+    public static final String PREF_IS_FINGERPRINT_ENABLED = "PREF_IS_FINGERPRINT_ENABLED";
